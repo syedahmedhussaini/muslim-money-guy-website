@@ -23,7 +23,7 @@ const COLUMNS: {
 			{ label: "About", to: "/about" },
 			{ label: "Contact", to: "/contact" },
 			{ label: "Careers", href: "#" },
-			{ label: "Blog", href: "#" },
+			{ label: "Articles", to: "/articles" },
 		],
 	},
 	{

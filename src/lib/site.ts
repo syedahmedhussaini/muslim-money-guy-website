@@ -30,6 +30,7 @@ export const homeHero = {
 } as const;
 
 export const nav = [
+	{ to: "/articles", label: "Articles" },
 	{ to: "/features", label: "Features" },
 	{ to: "/pricing", label: "Pricing" },
 	{ to: "/about", label: "About" },
