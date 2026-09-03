@@ -24,6 +24,11 @@ export const site = {
 	domain: "vertex.example",
 } as const;
 
+/** Homepage-only hero branding. Kept separate so global metadata remains unchanged. */
+export const homeHero = {
+	headline: "Muslim Money Guy",
+} as const;
+
 export const nav = [
 	{ to: "/features", label: "Features" },
 	{ to: "/pricing", label: "Pricing" },

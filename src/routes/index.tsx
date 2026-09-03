@@ -10,7 +10,7 @@ import {
 	CardHeader,
 	CardTitle,
 } from "#/components/ui/card";
-import { homeFeatures, site, stats, testimonials } from "#/lib/site";
+import { homeFeatures, homeHero, site, stats, testimonials } from "#/lib/site";
 
 export const Route = createFileRoute("/")({ component: Home });
 
@@ -44,11 +44,9 @@ function Home() {
 						Trusted by 12,000+ teams worldwide
 					</Badge>
 					<h1 className="mx-auto max-w-3xl text-4xl font-extrabold tracking-tight text-balance sm:text-6xl">
-						The operating system for{" "}
 						<span className="bg-gradient-to-r from-primary to-indigo-400 bg-clip-text text-transparent">
-							modern teams
+							{homeHero.headline}
 						</span>
-						.
 					</h1>
 					<p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground text-pretty">
 						{site.description}
